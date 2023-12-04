@@ -103,7 +103,7 @@ messageBtn.addEventListener('click', () => {
 });
 
 function checkM(m) {
-  location.href = 'sms:' + '01056132657' + (m == 'ios' ? '&' : '?') + 'body=' + encodeURIComponent("")
+  location.href = 'sms:' + '01056132657' + (m == 'ios' ? '&' : '?') + 'body=' + encodeURIComponent("상담 신청합니다.")
 }
 
 
